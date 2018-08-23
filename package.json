@@ -1,0 +1,29 @@
+{
+  "name": "mm-eth-server",
+  "version": "0.0.1",
+  "description": "endpoint of private blockchain for MasterMind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hhan87",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "ramda": "^0.25.0",
+    "web3": "^0.20.1",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1"
+  }
+}
